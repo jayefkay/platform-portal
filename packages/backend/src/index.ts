@@ -73,4 +73,7 @@ backend.add(import('@backstage/plugin-mcp-actions-backend'));
 backend.add(import('@backstage/plugin-catalog-backend-module-github'));
 backend.add(import('@backstage/plugin-catalog-backend-module-github-org'));
 
+// github auth plugin
+backend.add(import('@backstage/plugin-auth-backend-module-github-provider'));
+
 backend.start();
